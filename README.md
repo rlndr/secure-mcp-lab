@@ -1,6 +1,6 @@
-# rlapi — secure MCP server build
+# secure-mcp-lab — secure MCP server build
 
-A two-project learning track, built **break-then-fix**: a hardened CRUD API (`rlapi`), an
+A learning track (formerly named `rlapi`; the `rlapi` package is now just one part of it), built **break-then-fix**: a hardened CRUD API (`rlapi`), an
 OAuth 2.1 authorization server (`rlas`), and an MCP server in front of them (`rlmcp`) that
 is a proper OAuth 2.1 resource server. Each security step writes the vulnerability first,
 proves it with an exploit, fixes it, then keeps the exploit as a regression test.
